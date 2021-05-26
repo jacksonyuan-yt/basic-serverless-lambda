@@ -2,9 +2,6 @@ name: Deploy Lambda
 
 on:
   push:
-    branches:
-      - main
-
 jobs:
   deploy:
     name: deploy
